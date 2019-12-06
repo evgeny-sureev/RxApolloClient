@@ -9,7 +9,7 @@ import Foundation
 import Apollo
 import RxSwift
 
-enum ApolloError: Error {
+public enum ApolloError: Error {
     case gqlErrors([GraphQLError])
 }
 
